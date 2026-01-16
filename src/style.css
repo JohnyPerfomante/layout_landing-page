@@ -29,7 +29,7 @@ body {
   justify-content: space-between;
 }
 
-.header__top {
+.header__top .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -50,6 +50,14 @@ body {
   vertical-align: middle;
 }
 
+@media (min-width: 1024px) {
+  .header__title {
+    bottom: 120px;
+    font-size: 64px;
+    line-height: 1.1;
+  }
+}
+
 /* #endregion */
 
 /* #region icon */
@@ -61,11 +69,11 @@ body {
 }
 
 .icon--phone {
-  background-image: url(./icons/icon-phone.png);
+  background-image: url(./icons/icon-phone-call.svg);
 }
 
 .icon--menu {
-  background-image: url(./icons/icon-burger-menu.png);
+  background-image: url(./icons/icon-burger-menu.svg);
 }
 
 /* #endregion */
