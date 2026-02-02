@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 480px;
+  box-sizing: border-box;
+  background-image: url('./images/header-bg-mobile.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right -45px center;
+
+  &__bottom {
+    padding: 0 20px 40px;
+  }
+
+  &__title {
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: -1.5px;
+    text-align: center;
+    transform: translateY(-21px);
+
+    @media (min-width: 1024px) {
+      bottom: 120px;
+      font-size: 64px;
+      line-height: 2.5;
+    }
+  }
+}
