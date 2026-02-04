@@ -1,13 +1,18 @@
+.container {
+  padding-block: 24px;
+
+  @include contentPaddingInline;
+
+  @include onTablet {
+    padding-block: 64px;
+  }
+}
+
 .top-bar {
-  .container {
-    padding: 24px 20px;
+  &__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    @media (min-width: 576px) {
-      padding: 64px 72px;
-    }
   }
 
   &__icons {

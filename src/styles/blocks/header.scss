@@ -10,7 +10,9 @@
   background-position: right -45px center;
 
   &__bottom {
-    padding: 0 20px 40px;
+    padding-bottom: 40px;
+
+    @include contentPaddingInline;
   }
 
   &__title {
@@ -23,7 +25,6 @@
     transform: translateY(-21px);
 
     @media (min-width: 1024px) {
-      bottom: 120px;
       font-size: 64px;
       line-height: 2.5;
     }
