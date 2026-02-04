@@ -1,9 +1,9 @@
 .container {
   padding-block: 24px;
 
-  @include contentPaddingInline;
+  @include content-padding-inline;
 
-  @include onTablet {
+  @include on-tablet {
     padding-block: 64px;
   }
 }
