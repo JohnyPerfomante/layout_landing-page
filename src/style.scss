@@ -96,7 +96,7 @@
 /* #region menu */
 
 .top-bar .container {
-  padding: 24px 20px;
+  // padding: 24px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -169,11 +169,11 @@
 
 /* #region icon */
 
-.icon {
-  display: block;
-  height: 24px;
-  width: 24px;
-}
+// .icon {
+//   display: block;
+//   height: 24px;
+//   width: 24px;
+// }
 
 .icon--phone {
   background-image: url(./icons/icon-phone-call.svg);
